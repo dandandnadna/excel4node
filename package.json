@@ -1,6 +1,6 @@
 {
   "name": "excel4node",
-  "version": "0.2.23",
+  "version": "0.3.00",
   "keywords": [
     "excel",
     "spreadsheet",
@@ -23,7 +23,7 @@
     }
   ],
   "dependencies": {
-    "image-size": "0.3.5",
+    "image-size": "git+https://github.com/eccheung4/image-size.git#feature-vidroll",
     "jszip": "2.5.0",
     "mime": "1.3.4",
     "underscore": "1.8.3",
@@ -37,5 +37,8 @@
     "url": "https://github.com/natergj/excel4node/labels/bug"
   },
   "main": "./lib/index",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "scripts": {
+    "start": "browserify ./lib/index.js -o ./dist/excel4node.js"
+  }
 }

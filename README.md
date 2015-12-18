@@ -8,6 +8,13 @@ An OOXML (xlsx) generator that supports formatting options
 npm install excel4node
 ```
 
+### Browserify:
+Script to browserify into dist/excel4node.js
+
+```
+npm start
+```
+
 ### Sample:
 A sample.js script is provided in the code. Running this will output a sample excel workbook named Excel.xlsx
 
